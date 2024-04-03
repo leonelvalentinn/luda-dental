@@ -32,7 +32,8 @@ export const NavBar = () => {
           <button 
             className="border-none bg-transparent flex justify-between items-center flex-col w-10 h-6 cursor-pointer transition" 
             aria-label="Menu"
-            onClick={() => setIsOpen(!isOpen)}
+            onMouseOver={() => setIsOpen(!isOpen)}
+            onMouseOut={() => setIsOpen(!isOpen)}
           >
             <span aria-hidden className={`w-8 h-1 rounded-lg bg-primary transition ${isOpen ? "rotate-45 translate-y-2" : ""}`}></span>
             <span aria-hidden className={`w-8 h-1 rounded-lg bg-primary transition ${isOpen ? "scale-0": ""}`}></span>
