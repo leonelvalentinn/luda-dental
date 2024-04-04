@@ -1,17 +1,16 @@
 import './App.css'
-import { Hero } from './components/Hero'
-import { NavBar } from './components/NavBar'
-import { About } from './components/About'
+import { Route, Routes } from 'react-router-dom'
+import { Home } from './pages/Home'
+import { AboutPage } from './pages/AboutPage'
 
 function App() {
 
   return (
-    <>
-      <NavBar />
-      <Hero />
-      <About />
-    </>
-  )
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='about' element={<AboutPage />}/>
+    </Routes>
+  ) 
 }
 
 export default App

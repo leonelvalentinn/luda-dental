@@ -1,11 +1,29 @@
-import hero from "../assets/hero.webp"
-export const Hero = () => {
+import hero from "../assets/hero-mov.webp"
+import heroDes from '../assets/hero.webp'
+// eslint-disable-next-line react/prop-types
+export const Hero = ({ divRef }) => {
+
   return (
-    <section className="w-full flex justify-center items-center flex-col max-h-[600px] relative">
-      <img src={hero} alt="Foto de sonrisa perfecta" className="w-full h-full object-cover lg:h-[600px]"/>
-      <div className="absolute bottom-0">
-        <h1 className="font-bold text-4xl text-center">LuDa Dental</h1>
-        <p className="font-semibold text-xl text-center">Cuidamos tu sonrisa</p>
+    <section className={`w-full h-[calc(100svh-89px)] flex justify-center items-center flex-col relative`} id="home" ref={divRef}>
+      <img 
+        src={hero} 
+        alt="Foto de sonrisa perfecta" 
+        className="w-full h-full object-cover md:hidden" 
+        loading="eager" 
+        width="1333" 
+        height="2000"
+      />
+      <img 
+        src={heroDes} 
+        alt="Foto de sonrisa perfecta" 
+        className="w-full h-full object-cover hidden md:block" 
+        loading="eager" 
+        width="2000" 
+        height="1333"
+      />
+      <div className="absolute bottom-5 bg-cyan-200/20 backdrop-blur-xl p-5 rounded-xl">
+        <h1 className="font-bold text-4xl text-center text-gray-900">LuDa Dental</h1>
+        <p className="font-semibold text-xl text-center text-gray-900">Cuidamos tu sonrisa</p>
       </div>
     </section>
   );
