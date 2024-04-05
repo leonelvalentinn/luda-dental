@@ -1,10 +1,10 @@
 import hero from "../assets/hero-mov.webp"
 import heroDes from '../assets/hero.webp'
 // eslint-disable-next-line react/prop-types
-export const Hero = ({ divRef }) => {
+export const Page404 = ({ divRef }) => {
 
   return (
-    <section className={`w-full h-[calc(100svh-89px)] max-h-[900px] flex justify-center items-center flex-col relative`} id="home" ref={divRef}>
+    <section className={`w-full h-[calc(100svh-89px)] flex justify-center items-center flex-col relative`} id="home" ref={divRef}>
       <img 
         src={hero} 
         alt="Foto de sonrisa perfecta" 

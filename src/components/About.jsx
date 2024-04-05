@@ -1,4 +1,4 @@
-import team from '../assets/somos-img.webp'
+import team from '../assets/consultorio-2.webp'
 import { CardColor } from './CardColor';
 import { Certificate } from './Certificate';
 import { Star } from './Star';
