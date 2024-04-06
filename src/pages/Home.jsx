@@ -3,6 +3,7 @@ import { NavBar } from '../components/NavBar'
 import { useRef } from 'react'
 import { About } from '../components/About'
 import { Services } from '../components/Services'
+import { AboutDoctors } from '../components/AboutDoctors'
 
 export const Home = () => {
 
@@ -22,6 +23,7 @@ export const Home = () => {
       />
       <Hero />
       <About />
+      <AboutDoctors />
       <Services />
     </>
   )

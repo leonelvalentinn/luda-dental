@@ -6,7 +6,7 @@ export const CardService = ({ title, description, img, alt }) => {
         <img className="w-full" src={img} alt={alt} />
       </header>
       <section className="p-6">
-        <h3 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+        <h3 className="mb-2 block text-xl font-semibold leading-snug tracking-normal antialiased">
           {title}
         </h3>
         <p className="block text-base leading-relaxed text-inherit antialiased">

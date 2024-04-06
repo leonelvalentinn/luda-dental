@@ -22,7 +22,7 @@ export const NavBar = ({ Function }) => {
             <span aria-hidden className={`w-10 h-1 rounded-lg bg-primary transition ${isOpen ? "scale-0": ""}`}></span>
             <span aria-hidden className={`w-10 h-1 rounded-lg bg-primary transition ${isOpen ? "-rotate-45 -translate-y-3" : ""}`}></span>
           </button>
-          <ul className={`w-[90%] absolute top-[88px] flex flex-col p-4 z-20 left-1/2 ${isOpen ? "scale-1 -translate-x-1/2 translate-y-0" : "scale-0 translate-x-36 -translate-y-36"} lg:p-0 font-medium border border-gray-200 rounded-lg bg-gray-200 transition-all duration-300 lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white lg:scale-100 lg:static lg:-translate-x-0 lg:translate-y-0 lg:w-fit`}>
+          <ul className={`w-[90%] absolute top-[88px] flex flex-col p-4 z-20 ${isOpen ? "scale-1 translate-x-0 translate-y-0" : "scale-0 translate-x-36 -translate-y-36"} lg:p-0 font-medium border border-gray-200 rounded-lg bg-gray-200 transition-all duration-300 lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white lg:scale-100 lg:static lg:-translate-x-0 lg:translate-y-0 lg:w-fit`}>
             <li>
               <a href="/" className="block py-2 px-3 text-white bg-primary rounded transition lg:bg-transparent lg:text-secondary/60 lg:hover:text-secondary/60 lg:p-0 lg:dark:text-secondary/lg:hover:text-secondary/60 lg:text-xl lg:text-secondary" aria-current="page">Inicio</a>
             </li>
