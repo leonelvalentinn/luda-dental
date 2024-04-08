@@ -4,6 +4,8 @@ import { useRef } from 'react'
 import { About } from '../components/About'
 import { Services } from '../components/Services'
 import { AboutDoctors } from '../components/AboutDoctors'
+import { Map } from '../components/Map'
+import { Footer } from '../components/Footer'
 
 export const Home = () => {
   const divRef = useRef('home')
@@ -24,6 +26,8 @@ export const Home = () => {
       <About />
       <AboutDoctors />
       <Services />
+      <Map />
+      <Footer />
     </>
   )
 }
