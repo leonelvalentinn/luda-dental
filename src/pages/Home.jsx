@@ -6,19 +6,18 @@ import { Services } from '../components/Services'
 import { AboutDoctors } from '../components/AboutDoctors'
 
 export const Home = () => {
-
-  const divRef = useRef('home');
+  const divRef = useRef('home')
 
   const scrollToElement = () => {
-    const {current} = divRef
-    if (current !== null){
-      { current.scrollIntoView ? current.scrollIntoView() : null}
+    const { current } = divRef
+    if (current !== null) {
+      return (current.scrollIntoView ? current.scrollIntoView() : '')
     }
   }
 
   return (
     <>
-      <NavBar 
+      <NavBar
         Function={scrollToElement}
       />
       <Hero />
