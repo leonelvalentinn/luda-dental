@@ -6,6 +6,8 @@ import { Services } from '../components/Services'
 import { AboutDoctors } from '../components/AboutDoctors'
 import { Map } from '../components/Map'
 import { Footer } from '../components/Footer'
+import { Promotions } from '../components/Promotions'
+import { Reviews } from '../components/Reviews'
 
 export const Home = () => {
   const divRef = useRef('home')
@@ -26,6 +28,8 @@ export const Home = () => {
       <About />
       <AboutDoctors />
       <Services />
+      <Promotions />
+      <Reviews />
       <Map />
       <Footer />
     </>
