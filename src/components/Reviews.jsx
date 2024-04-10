@@ -4,9 +4,11 @@ import paciente3 from '../assets/paciente-3.png'
 import paciente4 from '../assets/paciente-4.png'
 import paciente5 from '../assets/paciente-5.png'
 import { CardReview } from './CardReview'
+import { TitleSection } from './TitleSection'
 import { Splide } from '@splidejs/react-splide'
 // Default theme
 import '@splidejs/react-splide/css'
+import '../index.css'
 
 export const Reviews = () => {
   const infoReview = [
@@ -39,15 +41,23 @@ export const Reviews = () => {
 
   return (
     <section className='w-full flex justify-center items-center'>
-      <div className='w-full h-full flex justify-center items-center max-w-7xl px-4'>
+      <div className='w-full h-full flex justify-center flex-col items-center max-w-7xl px-4 gap-10'>
+        <TitleSection title='Testimonios' />
         <Splide
           aria-label='Reseñas de pacientes'
           options={{
             rewind: true,
             width: '100%',
-            height: '450px',
+            perPage: 3,
             padding: '1rem',
-            gap: '1rem'
+            gap: '2rem',
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            autoplay: true,
+            breakpoints: {
+              767: { perPage: 1 },
+              1023: { perPage: 2 }
+            }
           }}
         >
           {

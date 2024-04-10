@@ -1,7 +1,7 @@
 import { CardAbout } from './CardAbout'
 
-import Jesus from '../assets/photo_doc.jpg'
-import Will from '../assets/photo_jesus.jpg'
+import Jesus from '../assets/photo_doc.webp'
+import Will from '../assets/photo_jesus.webp'
 
 export const AboutDoctors = () => {
   return (

@@ -6,12 +6,12 @@ export const CardAbout = ({ children, imgSrc, imgAlt, name, reverse }) => {
       <div className='px-4 w-full flex justify-center items-center flex-col py-8 text-center md:px-20'>
         <h4 className='font-bold text-xl text-secondary mb-2'>Conoce a nuestro especialista</h4>
         <h3 className='font-semibold text-2xl text-gray-700'>{name}</h3>
-        <ul className='my-4 list-inside list-disc color text-lg text-gray-700 text-center'>
+        <ul className='my-4 list-disc color text-lg text-gray-700 text-start pl-5'>
           {children}
         </ul>
         <a
           data-ripple-light='true'
-          className='select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-semibold text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none'
+          className='select-none rounded-lg bg-blue-700 py-3 px-6 text-center align-middle font-semibold text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none'
           href='#'
         >
           Ver curriculum

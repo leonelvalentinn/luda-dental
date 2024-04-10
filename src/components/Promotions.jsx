@@ -1,8 +1,9 @@
 import { CardPromo } from './CardPromo'
-import promo from '../assets/promo.jpg'
+import promo from '../assets/promo.webp'
 import { TitleSection } from './TitleSection'
 
-export const Promotions = () => {
+// eslint-disable-next-line react/prop-types
+export const Promotions = ({ divRef }) => {
   const infoPromotions = [
     {
       imgSrc: promo,
@@ -19,7 +20,7 @@ export const Promotions = () => {
   ]
 
   return (
-    <section className='w-full flex justify-center items-center flex-col mt-14 mb-10'>
+    <section className='w-full flex justify-center items-center flex-col mt-14 mb-10' id='promotion' ref={divRef}>
       <div className='w-full flex justify-center items-center flex-col max-w-7xl px-4'>
         <TitleSection title='Promociones' />
         <div className='w-full mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-8'>
