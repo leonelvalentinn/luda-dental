@@ -13,17 +13,19 @@ export const AboutDoctors = () => {
           imgAlt='Foto de perfil del C.D.E.O. Will Gallegos Gómez'
           reverse
         >
-          <li className='mb-2'>Licenciatura De Cirujano Dentista. Universidad De Guadalajara. Cucs.</li>
-          <li className='mb-2'>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
-          <li>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
+          <li><strong>Licenciatura De Cirujano Dentista.</strong> Universidad De Guadalajara. Cucs.</li>
+          <li><strong>Diplomado En Ortodoncia.</strong> Avalado Por El Instituto Odontológico De Especialidades, A.C</li>
+          <li><strong>Curso Cryst Aligner Pro</strong> / Biomecánica En Ortodoncia Invisible Personalizada. Borgatta</li>
+          <li><strong>Diplomado En Rehabilitación Estética.</strong> Instituto Multidisciplinario De Especialidades Dentales Imed</li>
+          <li><strong>Curso Smile System Pro</strong> / Biomecánica De Auto ligado Interactivo Y Ortodoncia Digital Simplificada. Borgatta</li>
         </CardAbout>
         <CardAbout
           name='Dr. Jesus Barajas'
           imgSrc={Jesus}
           imgAlt='Foto de perfil del Dr. Jesus Barajas'
         >
-          <li className='mb-2'>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
-          <li className='mb-2'>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
+          <li>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
+          <li>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
           <li>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
         </CardAbout>
       </div>
