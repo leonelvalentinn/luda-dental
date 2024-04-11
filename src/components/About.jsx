@@ -36,7 +36,7 @@ export const About = ({ divRef }) => {
         <img src={team} alt='Fotografía equipo LuDaDental' className='w-full max-w-md mb-3 rounded-2xl' />
         <article className='text-center mb-3'>
           <TitleSection title='¿Quiénes somos?' />
-          <p className='text-lg mt-4'>Una clínica integral que ofrece una variedad de servicios
+          <p className='text-lg mt-4'>Somos una clínica integral que ofrece una variedad de servicios
             odontológicos de primera calidad. Contamos con personal profesional
             altamente capacitado y tecnología de punta en un ambiente cómodo y
             relajante; ideal para atender todas tus necesidades en un mismo lugar.
