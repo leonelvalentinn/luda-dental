@@ -11,7 +11,7 @@ import { AboutPage } from './pages/AboutPage.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '*',
+    path: '/',
     element: <App />,
     errorElement: <ErrorPage />
   },
