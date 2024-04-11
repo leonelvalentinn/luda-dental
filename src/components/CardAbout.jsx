@@ -4,8 +4,8 @@ export const CardAbout = ({ children, imgSrc, imgAlt, name, reverse }) => {
     <article className='w-full flex justify-center items-center flex-col rounded-xl shadow-xl shadow-gray-600/80 md:flex-row'>
       <img src={imgSrc} alt={imgAlt} className={`w-full rounded-t-xl md:max-w-72 ${reverse ? 'md:order-2 md:rounded-r-xl md:rounded-t-none' : 'md:rounded-l-xl md:rounded-tr-none'} lg:max-w-md`} />
       <div className='px-4 w-full flex justify-center items-center flex-col py-8 text-center md:px-20'>
-        <h4 className='font-bold text-xl text-secondary mb-2 lg:text-2xl'>Conoce a nuestro especialista</h4>
-        <h3 className='font-semibold text-2xl text-gray-700 lg:text-3xl'>{name}</h3>
+        <h4 className='font-bold text-xl text-secondary mb-2 lg:text-3xl'>Conoce a nuestro especialista</h4>
+        <h3 className='font-semibold text-2xl text-gray-700'>{name}</h3>
         <ul className='my-4 list-disc color text-lg text-gray-700 text-start pl-5 gap-2'>
           {children}
         </ul>

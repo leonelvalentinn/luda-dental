@@ -27,7 +27,7 @@ export const NavBar = ({ Function }) => {
               <a href='/' className='block py-2 px-3 text-white bg-primary rounded transition lg:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl lg:text-secondary' aria-current='page'>Inicio</a>
             </li>
             <li>
-              <a href='/nosotros' onClick={() => Function()} className='block py-2 px-3 transition text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Nosotros</a>
+              <a href='#about' onClick={() => Function()} className='block py-2 px-3 transition text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Nosotros</a>
             </li>
             <li>
               <a href='/#services' onClick={() => Function()} className='block py-2 px-3 transition text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Servicios</a>
