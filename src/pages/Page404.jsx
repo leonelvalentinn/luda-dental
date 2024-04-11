@@ -1,29 +1,16 @@
-import hero from '../assets/hero-mov.webp'
-import heroDes from '../assets/hero.webp'
-// eslint-disable-next-line react/prop-types
-export const Page404 = ({ divRef }) => {
+import { NavBar } from '../components/NavBar'
+import { Footer } from '../components/Footer'
+
+export const Page404 = () => {
   return (
-    <section className='w-full h-[calc(100svh-89px)] flex justify-center items-center flex-col relative' id='home' ref={divRef}>
-      <img
-        src={hero}
-        alt='Foto de sonrisa perfecta'
-        className='w-full h-full object-cover md:hidden'
-        loading='eager'
-        width='1333'
-        height='2000'
-      />
-      <img
-        src={heroDes}
-        alt='Foto de sonrisa perfecta'
-        className='w-full h-full object-cover hidden md:block'
-        loading='eager'
-        width='2000'
-        height='1333'
-      />
-      <div className='absolute bottom-5 bg-cyan-200/20 backdrop-blur-xl p-5 rounded-xl'>
-        <h1 className='font-bold text-4xl text-center text-gray-900'>LuDa Dental</h1>
-        <p className='font-semibold text-xl text-center text-gray-900'>Cuidamos tu sonrisa</p>
+    <section className='w-full h-svh'>
+      <NavBar />
+      <div id='error-page' className='w-full h-[500px] flex justify-center items-center flex-col'>
+        <h1 className='uppercase font-semibold text-4xl'>Error 404</h1>
+        <p className='text-xl'>Lo siento, la página que buscas no existe.</p>
+        <a href='/' className='mt-4 select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none'>Ir al inicio</a>
       </div>
+      <Footer />
     </section>
   )
 }
