@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import { Home } from './pages/Home.jsx'
 import ErrorPage from './pages/ErrorPage.jsx'
 import {
   createBrowserRouter,
@@ -12,7 +12,7 @@ import { AboutPage } from './pages/AboutPage.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <Home />,
     errorElement: <ErrorPage />
   },
   {
