@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 # Important!
 
-When we want to use - [BrowserRouter] or - [createBrowserRouter] we have to do one extra configuration
+When we want to use ``` BrowserRouter ``` or ``` createBrowserRouter ``` we have to do one extra configuration
 
 ## For Apache servers
 
