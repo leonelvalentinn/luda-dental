@@ -1,17 +1,10 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
 import './index.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import { AboutPage } from './pages/AboutPage'
-import { Home } from './pages/Home'
-
-const router = createBrowserRouter([
-  { path: '/', element: <Home /> },
-  { path: '/about', element: <AboutPage /> }
-])
+import { HashRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <HashRouter>
+    <App />
+  </HashRouter>
 )
