@@ -11,19 +11,22 @@ Currently, two official plugins are available:
 
 When we want to use - [BrowserRouter] or - [createBrowserRouter] we have to do one extra configuration
 
-# For - [Apache] servers
+## For Apache servers
 
-we have to modify the - [.htaccess] file and write this:
+- We have to modify the ```sh .htaccess ``` file and write this:
 
-Options -MultiViews
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.html [QSA,L]
+  ```sh
+  Options -MultiViews
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.html [QSA,L]
+  ```
 
-# For - [Vercel]
+## For Vercel
 
-we have to create the vercel.json file at the root of our project and write this:
+- We have to create the ```sh vercel.json ``` file at the root of our project and write this:
 
+```sh
 {
   "rewrites": [
     { 
@@ -32,3 +35,4 @@ we have to create the vercel.json file at the root of our project and write this
     }
   ]
 }
+```
