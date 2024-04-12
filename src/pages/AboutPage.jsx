@@ -44,7 +44,7 @@ export const AboutPage = () => {
           />
           <div className='w-full h-full absolute inset-0 bg-primary/70' />
           <div className='w-full absolute bottom-1/2 left-1/2 -translate-x-1/2 translate-y-1/2'>
-            <h1 className='font-bold text-4xl text-center text-white lg:text-6xl'>Conoce LuDa Dental</h1>
+            <h1 className='font-bold text-4xl text-center text-white lg:text-6xl'>Conoce LuDaDental</h1>
             <p className='font-semibold text-xl text-center text-white lg:text-4xl'>Cuidamos tu sonrisa</p>
           </div>
         </section>

@@ -10,7 +10,7 @@ export const NavBar = ({ Function }) => {
       <nav className='w-full relative px-4 flex justify-between items-center max-w-7xl flex-col'>
         <div className='w-full flex justify-between items-center my-2'>
           <a href='/' aria-label='Ir a la página principal' className='w-3/5 max-w-52'>
-            <img className='w-full' src={logo} alt='Logo Luda Dental' width='350' height='123' />
+            <img className='w-full' src={logo} alt='Logo LuDaDental' width='350' height='123' />
           </a>
           <button
             className='border-none bg-transparent flex justify-between items-center flex-col w-10 h-6 cursor-pointer transition lg:hidden'

@@ -6,7 +6,7 @@ export const Features = () => {
       <div className='w-full max-w-7xl grid grid-cols-1 gap-6 px-4 text-center md:grid-cols-2 md:gap-9 lg:gap-16'>
         <article className='flex justify-start items-center w-full flex-col'>
           <TitleSection title='Misión' />
-          <p className='mt-4 md:text-lg'>En Luda Dental nos comprometemos a proporcionar servicios dentales de alta calidad con un enfoque centrado en el paciente, utilizando tecnología de vanguardia y un equipo altamente capacitado para mejorar la salud bucal y la calidad de vida de nuestros paciente</p>
+          <p className='mt-4 md:text-lg'>En LuDaDental nos comprometemos a proporcionar servicios dentales de alta calidad con un enfoque centrado en el paciente, utilizando tecnología de vanguardia y un equipo altamente capacitado para mejorar la salud bucal y la calidad de vida de nuestros paciente</p>
         </article>
         <article className='flex justify-start items-center w-full flex-col'>
           <TitleSection title='Visión' />

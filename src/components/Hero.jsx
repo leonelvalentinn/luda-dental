@@ -21,7 +21,7 @@ export const Hero = ({ divRef }) => {
         height='1333'
       />
       <div className='absolute bottom-5 bg-cyan-200/20 backdrop-blur-xl p-5 rounded-xl'>
-        <h1 className='font-bold text-4xl text-center text-gray-900'>LuDa Dental</h1>
+        <h1 className='font-bold text-4xl text-center text-gray-900'>LuDaDental</h1>
         <p className='font-semibold text-xl text-center text-gray-900'>Cuidamos tu sonrisa</p>
       </div>
     </section>
