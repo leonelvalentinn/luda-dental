@@ -3,7 +3,13 @@ export const CardService = ({ title, description, img, alt }) => {
   return (
     <article className='relative flex w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-xl shadow-gray-600/80'>
       <header className='relative mx-4 -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600'>
-        <img className='w-full' src={img} alt={alt} />
+        <img
+          className='w-full'
+          src={img}
+          alt={alt}
+          width='500'
+          height='400'
+        />
       </header>
       <section className='p-6'>
         <h3 className='mb-2 block text-xl font-semibold leading-snug tracking-normal antialiased'>

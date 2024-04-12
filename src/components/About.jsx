@@ -33,7 +33,7 @@ export const About = ({ divRef }) => {
   return (
     <div className='w-full flex justify-center items-center' id='about' ref={divRef}>
       <section className='px-4 w-full max-w-7xl grid grid-cols-1 place-content-center place-items-center my-10 md:grid-cols-2 md:gap-7'>
-        <img src={team} alt='Fotografía equipo LuDaDental' className='w-full max-w-md mb-3 rounded-2xl' />
+        <img src={team} alt='Fotografía equipo LuDaDental' className='w-full max-w-md mb-3 rounded-2xl' width='585' height='786' />
         <article className='text-center mb-3'>
           <TitleSection title='¿Quiénes somos?' />
           <p className='text-lg mt-4'>Somos una clínica integral que ofrece una variedad de servicios
