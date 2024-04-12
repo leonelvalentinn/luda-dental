@@ -16,7 +16,7 @@ export const CardService = ({ title, description, img, alt }) => {
       <footer className='p-6 pt-0'>
         <a
           data-ripple-light='true'
-          className='select-none rounded-lg bg-blue-700 py-3 px-6 text-center align-middle text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none'
+          className='select-none rounded-lg bg-blue-700 py-3 px-6 text-center align-middle text-xs font-bold text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:text-sm'
           href={`https://wa.me/523317118089?text=Buenas%20tardes,%20solicito%20informaci%C3%B3n%20sobre%20su%20tratamiento%20de%20${title}`}
           rel='noopener noreferrer'
           target='_blank'

@@ -1,9 +1,5 @@
-import { useState } from 'react'
 // eslint-disable-next-line react/prop-types
-export const CardAbout = ({ children, imgSrc, imgAlt, name, reverse, description, isHero, isWill }) => {
-  const [visibleWill, setVisibleWill] = useState(false)
-  const [visibleJesus, setVisibleJesus] = useState(false)
-
+export const CardAbout = ({ children, imgSrc, imgAlt, name, reverse }) => {
   return (
     <article className='w-full flex justify-center items-center flex-col rounded-xl shadow-xl shadow-gray-600/80 md:flex-row'>
       <img src={imgSrc} alt={imgAlt} className={`w-full rounded-t-xl md:max-w-72 ${reverse ? 'md:order-2 md:rounded-r-xl md:rounded-t-none' : 'md:rounded-l-xl md:rounded-tr-none'} lg:max-w-md`} />
@@ -15,24 +11,11 @@ export const CardAbout = ({ children, imgSrc, imgAlt, name, reverse, description
         </ul>
         <a
           data-ripple-light='true'
-          className={`${isHero ? '' : 'hidden'} select-none rounded-lg bg-blue-700 py-3 px-6 text-center align-middle font-semibold text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none`}
+          className='select-none rounded-lg bg-blue-700 py-3 px-6 text-center align-middle font-semibold text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none'
           href='/nosotros'
         >
           Ver curriculum
         </a>
-        <div className={`w-full ${isHero ? 'hidden' : 'grid'}`}>
-          <button
-            className='w-full flex justify-center items-center rounded-lg bg-blue-700 py-3 px-6 text-center font-semibold text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none'
-            onClick={() => isWill ? setVisibleWill(!visibleWill) : setVisibleJesus(!visibleJesus)}
-          >
-            <span>Ver más</span>
-          </button>
-          <div className='max-h-0 transition-all duration-[500ms] overflow-hidden origin-bottom' id='text'>
-            <ul className='my-4 list-disc color text-lg text-gray-700 text-start pl-5 gap-2'>
-              {description}
-            </ul>
-          </div>
-        </div>
       </div>
     </article>
   )

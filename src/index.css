@@ -29,6 +29,11 @@ body {
   bottom: 70px;
   transition: all 0.2s linear;
 }
+.show {
+  max-height: 300px;
+  transition: all 0.3s linear;
+  transform-origin: top;
+}
 @media (min-width: 768px) {
   .button-fixed:hover .tel {
     right: 85px;

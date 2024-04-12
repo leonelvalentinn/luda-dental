@@ -12,7 +12,6 @@ export const AboutDoctors = () => {
           imgSrc={Will}
           imgAlt='Foto de perfil del C.D.E.O. Will Gallegos Gómez'
           reverse
-          isHero
         >
           <li><strong>Licenciatura De Cirujano Dentista.</strong> Universidad De Guadalajara. Cucs.</li>
           <li><strong>Diplomado En Ortodoncia.</strong> Avalado Por El Instituto Odontológico De Especialidades, A.C</li>
@@ -24,7 +23,6 @@ export const AboutDoctors = () => {
           name='Dr. Jesus Barajas'
           imgSrc={Jesus}
           imgAlt='Foto de perfil del Dr. Jesus Barajas'
-          isHero
         >
           <li>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
           <li>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
