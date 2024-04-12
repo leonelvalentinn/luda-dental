@@ -39,7 +39,7 @@ export const NavBar = ({ Function }) => {
               <a href='#location' onClick={() => Function()} className='block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Ubicación</a>
             </li>
             <li>
-              <a href='tel:3317118089' className='block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Contacto</a>
+              <a href='tel:3339685021' className='block py-2 px-3 text-gray-900 transition rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 lg:text-xl'>Contacto</a>
             </li>
           </ul>
         </div>

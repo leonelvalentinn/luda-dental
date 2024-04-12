@@ -14,7 +14,7 @@ export const CardPromo = ({ imgSrc, alt }) => {
       <a
         data-ripple-light='true'
         className='select-none rounded-lg bg-blue-700 py-3 px-6 text-center align-middle font-semibold text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none'
-        href='https://wa.me/523317118089'
+        href='https://wa.me/523339685021'
       >
         Agenda tu cita
       </a>
