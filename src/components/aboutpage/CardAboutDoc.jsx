@@ -78,7 +78,7 @@ export const CardAboutDoc = () => {
       {
         infoDocs.map((item) => (
           <article key={item.id} className='w-full flex justify-center items-center flex-col rounded-xl shadow-xl shadow-gray-600/80 md:flex-row'>
-            <img src={item.imgSrc} alt={item.imgAlt} className={`w-full rounded-t-xl md:max-w-72 ${item.reverse ? 'md:order-2 md:rounded-r-xl md:rounded-t-none' : 'md:rounded-l-xl md:rounded-tr-none'} lg:max-w-md`} />
+            <img src={item.imgSrc} alt={item.imgAlt} className={`w-full rounded-t-xl md:max-w-72 ${item.reverse ? 'md:order-2 md:rounded-r-xl md:rounded-tl-none' : 'md:rounded-l-xl md:rounded-tr-none'} lg:max-w-md`} />
             <div className='px-4 w-full flex justify-center items-center flex-col py-8 text-center md:px-12'>
               <h4 className='font-bold text-xl text-secondary mb-2 lg:text-3xl'>Conoce a nuestro especialista</h4>
               <h3 className='font-semibold text-2xl text-gray-700'>{item.name}</h3>
