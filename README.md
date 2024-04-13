@@ -22,6 +22,19 @@ When we want to use ``` BrowserRouter ``` or ``` createBrowserRouter ``` we have
   RewriteRule ^ index.html [QSA,L]
   ```
 
+- If the code above didn´t work try to use this:
+
+  ```sh
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  RewriteBase /
+  RewriteRule ^index.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+  ```
+
 ## For Vercel
 
 - We have to create the ``` vercel.json ``` file at the root of our project and write this:
