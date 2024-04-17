@@ -15,18 +15,20 @@ export const AboutDoctors = () => {
         >
           <li><strong>Licenciatura De Cirujano Dentista.</strong> Universidad De Guadalajara. Cucs.</li>
           <li><strong>Diplomado En Ortodoncia.</strong> Avalado Por El Instituto Odontológico De Especialidades, A.C</li>
-          <li><strong>Curso Cryst Aligner Pro</strong> / Biomecánica En Ortodoncia Invisible Personalizada. Borgatta</li>
-          <li><strong>Diplomado En Rehabilitación Estética.</strong> Instituto Multidisciplinario De Especialidades Dentales Imed</li>
-          <li><strong>Curso Smile System Pro</strong> / Biomecánica De Auto ligado Interactivo Y Ortodoncia Digital Simplificada. Borgatta</li>
+          <li><strong>Curso Básico Y Avanzado De Mini Implantes Ortodónticos O.S.A.S. </strong>Avalado Por Asociación Mexicana De Ortopedia Maxilar A.C, Amom Y Dewimed Smart Innovation</li>
+          <li><strong>Curso De Rehabilitación Estética Adhesiva.</strong> Biotec Studio, Actualización Odontológica</li>
+          <li><strong>Diplomado De Biomecánica En Ortodoncia. </strong>Avalado Por Asociación Odontológica Mexicana Para La Enseñanza Y La Investigación / Diagnostico Radiológico Dental Orthodent</li>
         </CardAbout>
         <CardAbout
           name='Dr. Jesus Barajas'
           imgSrc={Jesus}
           imgAlt='Foto de perfil del Dr. Jesus Barajas'
         >
-          <li>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
-          <li>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
-          <li>Graduado de la Universidad Latinoamericana como cirujano dentista</li>
+          <li><strong>Licenciatura en Cirujano Dentista.</strong> Graduación con Excelencia Académica, Universidad Guadalajara Lamar.</li>
+          <li><strong>Reconocimiento de Excelencia Académica, </strong>por ser un alumno destacado por cinco semestres consecutivos.</li>
+          <li><strong>Mención Honorifica. </strong>Otorgada por O. P. D Servicios de Salud Jalisco Región Sanitaria No. XIII, como prestador de Servicio Social</li>
+          <li><strong>Curso de encerado de Sector Posterior. </strong>Morfología Dental. </li>
+          <li><strong>Curso de Prótesis Total. </strong>Filosofía Total</li>
         </CardAbout>
       </div>
     </section>
